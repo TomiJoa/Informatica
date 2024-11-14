@@ -32,15 +32,19 @@ color: #0000ff;
 }
 main{
     padding: 20px;
-    background-color: rgba(253, 252, 250, 0.918);
+    background-color: rgb(253, 252, 250, 0.918);
     background-image: url("/");
     background-size: cover;
     background-repeat: no-repeat;
 }
 h1{
     color: #ff0000;
+    text-align: center;
 } 
-h2, h3{
+h2{
+    color: #00a2ff;
+    text-align: center;} 
+h3{
     color: #00a2ff;
 }
 strong{
@@ -62,14 +66,14 @@ th{
     background-color: #4c90eb;
 }
 img{
-    width: 450px;
+    width: 300px;
     height: auto;
     margin: 20px 0;
     display: block;
+    margin: auto;
 }
 p{
-    color: #007bc2;
-    font-family: Arial, sans-serif;
+    color: #007bc2
 }
 footer{
     background-color: #b3d4ff;
